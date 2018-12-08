@@ -1,0 +1,270 @@
+body, html{
+	margin: 0;
+	padding: 0;
+	font: 1em Roboto;
+}
+header{
+	width: 100%;
+	height: 100vh;
+	background: url(images/Adams-Peak-2.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+}
+nav{
+	width: 100%;
+	height: auto;
+	color: #fff;
+	z-index: 999;
+}
+span{
+	font-weight: 700;
+}
+
+/*//////////////////////////lower navbar\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+.navbar{
+	width: 100%;
+	height: 70px;
+	color: #fff;
+	background-color: rgba(0,0,0,0.7);
+}
+.navbar_content{
+	width: 85%;
+	margin: 0 auto;
+}
+.navbar .logo{
+	float: right;
+	height: 50px;
+	padding: 10px 0px;
+}
+.navbar .logo img{
+	width: auto;
+	height: 100%;
+}
+.navbar .dropdown-menu{
+	width: 40%;
+}
+.navbar .dropdown-menu , .navbar .dropdown-menu ul{
+	position: absolute;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.navbar .dropdown-menu li a, .navbar .dropdown-menu ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+.navbar .dropdown-menu li{
+	display: inline-block;
+	padding: 25px 0;
+	transition: 0.3s;
+}
+.navbar .dropdown-menu li:hover{
+	background: #444;
+}
+.navbar .dropdown-menu li a{
+	padding: 20px;
+}
+.navbar .dropdown-menu ul{
+	display: none;
+	margin-top: 25px;
+}
+.navbar .dropdown-menu ul li{
+	padding: 15px 0px;
+	display: block;
+	background: #000;
+}
+.navbar .dropdown-menu ul li:hover{
+	background: #333;
+}
+.navbar .dropdown-menu li:hover ul{
+	display: block;
+}
+.fas{
+	padding-left: 8px;
+}
+/*//////////////////////////Header title div\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+.header-title{
+	position: absolute;
+	text-transform: uppercase;
+	text-align: center;
+	height: 300px;
+	font-family: Roboto;
+	color: white;
+	top: 45%;
+	left: 17.8%;
+	transform: (50%, 50%)
+}
+#main-title{
+	font-family: Roboto;
+	font-weight: 100;
+	font-size: 60px;
+	text-shadow: 5px 5px 10px black;
+}
+#sub-title{
+	font-family: Nunito;
+	font-size: 25px;
+	letter-spacing: 3px;
+	word-spacing: 5px;
+	margin: 10px 0 20px 0;
+	text-shadow: 5px 5px 10px black;
+}
+#main-title span{
+	font-weight: 700;
+}
+
+
+/*///////////////////////////slider part and trip booking part\\\\\\\\\\\*/
+.access-section{
+	width: 100%;
+	margin: 30px auto;
+	display: flex;
+}
+.access-side{
+	width: 60%;
+	margin: 0;
+	padding: 0;
+}
+#slider-title h1{
+	color: #333;
+  font-family: arial, sans-serif;
+  margin: 1em auto;
+  padding: 5px
+  width: 85%;
+  font-size: 18px;
+}
+#slider-title span{
+	font-weight: 700;
+}
+#slider{
+	width: 80%;
+	overflow: hidden;
+	
+}
+#slider figure{
+	width: 400%;
+	position: relative;
+	margin: 0;
+	left: 0;
+	-webkit-animation: 20s slider infinite;
+	-moz-animation: 20s slider infinite;
+	animation: 20s slider infinite;
+}
+#slider figure img{
+	width: 25%;
+	float: left;
+}
+@keyframes slider{
+	0%{
+		left: 0%;
+	}
+	20%{
+		left: 0%;
+	}
+	25%{
+		left: -100%;
+	}
+	45%{
+		left: -100%;
+	}
+	50%{
+		left: -200%;
+	}
+	70%{
+		left: -200%;
+	}
+	75%{
+		left: -300%;
+	}
+	95%{
+		left: -300%;
+	}
+	100%{
+		left: -400%;
+	}
+}
+
+/*/////////////////////////footer\\\\\\\\\\\\\\\\*/
+
+.footer{
+	background: #8532d3;
+}
+.footer-content{
+	width: 90%;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+.footer-refs-content-1 h5, .footer-refs-content-2 h5, .footer-refs-content-3 h5{
+	font-family: Roboto;
+	font-weight: 100;
+	font-size: 23px;
+	color: whitesmoke;
+}
+.footer-refs-content-1 h5 b, .footer-refs-content-2 h5 b, .footer-refs-content-3 h5 b{
+	font-weight: 700;
+}
+.footer-refs-content-1 ul, .footer-refs-content-2 ul, .footer-refs-content-3 ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+.footer-refs-content-1 ul li a, .footer-refs-content-2 ul li a, .footer-refs-content-3 ul li a{
+	color: whitesmoke;
+	font-size: 15px;
+	text-decoration: none;
+	line-height: 20px;
+	transition: 0.4s;
+}
+.footer-refs-content-1 ul li a:hover, .footer-refs-content-2 ul li a:hover, .footer-refs-content-3 ul li a:hover{
+	color: #42b3f4;
+	padding-left: 10px;
+}
+.footer-content{
+	display: flex;
+}
+.footer-refs-content-1{
+	width: 43%;
+}
+.footer-refs-content-2{
+	width: 33%;
+}
+.footer-refs-content-3{
+	width: 24%;
+}
+.footer-refs-content-1 h5, .footer-refs-content-2 h5, .footer-refs-content-3 h5{
+	padding-bottom: 10px;
+	margin-right: 100px;
+	border-bottom: 2px solid #fff;
+}
+.lower-footer{
+	width: 100%;
+	height: ;
+	color: #fff;
+	font-size: 13px;
+	font-family: Roboto;
+	font-weight: 300;
+	background: #400458;
+}
+.lower-footer-content{
+	width: 90%;
+	margin: 0 auto;
+	padding: 5px 0;
+	display: flex;
+}
+#footer-align-left{
+	width: 85%;
+	padding: 13px 0;
+}
+#footer-align-right{
+	text-align: right;
+	width: 15%;
+	padding: 0;
+}
+#footer-align-right a{
+	padding: 0 4px;
+	color: #fff;
+	transition: 0.3s;
+}
+#footer-align-right a:hover{
+	color: #43b9e0;
+}
