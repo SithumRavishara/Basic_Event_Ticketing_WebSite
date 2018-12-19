@@ -126,12 +126,12 @@ span{
 	padding: 0;
 }
 #slider-title h1{
-	color: #333;
+  color: #333;
   font-family: arial, sans-serif;
   margin: 1em auto;
-  padding: 5px
+  padding: 5px ;
   width: 85%;
-  font-size: 18px;
+  font-size:18px;
 }
 #slider-title span{
 	font-weight: 700;
@@ -238,7 +238,7 @@ span{
 }
 .lower-footer{
 	width: 100%;
-	height: ;
+	
 	color: #fff;
 	font-size: 13px;
 	font-family: Roboto;
